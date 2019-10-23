@@ -1,0 +1,23 @@
+{
+  "name": "apify_crawler",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:mcchin/apify_crawler.git",
+  "dependencies": {
+    "@apify/scraper-tools": "^0.1.2",
+    "@zeit/fetch-retry": "^4.0.1",
+    "apify": "^0.15.3",
+    "cheerio": "^1.0.0-rc.3",
+    "content-type": "^1.0.4",
+    "html-minifier": "^4.0.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^1.20.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "mcchin <mcchin@gmail.com>"
+}
