@@ -193,7 +193,7 @@ class CrawlerSetup {
           input: this.input,
           fetch,
           minify,
-          puppeteer
+          Apify,
         };
         let output = {};
         try {
